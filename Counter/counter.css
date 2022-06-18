@@ -1,0 +1,33 @@
+
+body{
+    box-sizing: border-box;
+    margin: 0;
+}
+
+
+.main-container{
+    
+    text-align: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 243, 243);
+}
+
+.inner-container{
+  
+}
+
+.btn{
+padding: 5px;
+border-radius: 7px;
+background-color: transparent;
+
+
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(168, 217, 217);
+
+}
