@@ -1,0 +1,20 @@
+.container{
+    display: flex;
+    text-align: center;
+  align-items: center;
+  justify-content: center;
+    
+}
+
+.inner-container{
+    border: 2px none black;
+    width: 50%;
+    border-radius: 30px;
+    height: 400px;
+    padding: 20px;
+    background-color: rgb(209, 153, 153);
+    color: white;
+}
+input:focus{
+    outline: none;
+}
