@@ -1,3 +1,7 @@
+
+  //using local storage
+  
+
 const name1= document.getElementById("index");
 const email=document.getElementById("email")
   name1.addEventListener("input",function (){
