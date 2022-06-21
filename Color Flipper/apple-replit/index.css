@@ -1,0 +1,28 @@
+body{
+    box-sizing: border-box;
+    padding: 0;
+    background-color: lightgreen;
+    display: flex;
+   align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.container{
+   border-radius: 5px;
+    background-color: white;
+     
+}
+.inner-container{
+    display: flex;
+   height: 500px;
+   justify-content: center;
+   align-items: center;
+}
+.apple-container{
+    width: 300px;
+    height: 400px;
+    background-color: greenyellow;
+    margin-left: -50px;
+    border-radius: 5px;
+}
