@@ -27,7 +27,7 @@ let ready = false;
 
 async function getPhotos() {
     const query = "monument";
-    const count = 10;
+    const count =  10;
 
 
     try {
