@@ -7,7 +7,7 @@ const APIkey = "dQlG1r5oYvJo1YXfbP3gXs4YxkX1A6pV4BzPlIAODro"
 const query = "monument";
 const count = 10;
 const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${APIkey}&count=${count}&query=${query}&orientation=squarish;`;
-console.log(apiUrl.length)
+//console.log(apiUrl.length)
 
 
 
@@ -31,7 +31,6 @@ async function getPhotos() {
 
 
     try {
-
         const response = await fetch(apiUrl);
         photosArray = await response.json(); // Extracting data as a JSON Object from the response
         console.log(photosArray)
