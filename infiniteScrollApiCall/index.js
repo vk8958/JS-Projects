@@ -10,6 +10,16 @@ const apiUrl = `https://api.unsplash.com/photos/random/?client_id=${APIkey}&coun
 console.log(apiUrl.length)
 
 
+
+/*Extracting Data
+Although we have the Response object now, we can't access the data inside it right away. The response object returned by await fetch supports multiple functions for different data formats, which include:
+
+response.json: Returns data as a JSON Object.
+response.text: Returns data in raw text.
+response.formData: Returns data as FormData.
+response.blob: Returns data as a Blob Object.
+response.arrayBuffer: Returns data as a Array Buffer Object.*/
+
 let photosArray = [];
 let totalImages = 0;
 let imagesLoaded = 0;
