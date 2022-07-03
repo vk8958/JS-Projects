@@ -23,16 +23,43 @@ response.arrayBuffer: Returns data as a Array Buffer Object.*/
 let photosArray = [];
 let totalImages = 0;
 let imagesLoaded = 0;
-let ready = false;
+let ready =  false;
+
+displayPhotos()
+
+function displayPhotos() {
+    imagesLoaded = 0;
+    totalImages = photosArray.length;
+
+    photosArray.forEach((photo) => {
+        const item = document.createElement('a');
+        console.log(item)
+        setAttributes(item, {
+            href: photo.link.html,
+            target: "_blanck"
+
+        })
+
+        const img = document.createElement("img");
+        setAttributes(img, {
+            src: photo.urls.regular,
+            alt: photo.alt_description
+        })
+
+        img.addEventListener("load",imageLoaded)
+        item.appendChild(img)
+    })
+}
+
 
 async function getPhotos() {
-    const query = "monument";
-    const count = 10;
+
 
 
     try {
         const response = await fetch(apiUrl);
         photosArray = await response.json(); // Extracting data as a JSON Object from the response
+
         console.log(photosArray)
 
     } catch (error) {
