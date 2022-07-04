@@ -29,7 +29,7 @@ displayPhotos()
 
 function displayPhotos() {
     imagesLoaded = 0;
-    totalImages = photosArray.length;
+    totalImages =  photosArray.length;
 
     photosArray. forEach((photo) => {
         const item = document.createElement('a');
