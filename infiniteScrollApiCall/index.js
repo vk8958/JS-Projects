@@ -22,7 +22,7 @@ response.arrayBuffer: Returns data as a Array Buffer Object.*/
 
 let photosArray = [];
 let totalImages = 0;
-let imagesLoaded = 0;
+let imagesLoaded =  0;
 let ready =  false;
 
 displayPhotos()
