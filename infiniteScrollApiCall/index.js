@@ -31,7 +31,7 @@ function displayPhotos() {
     imagesLoaded = 0;
     totalImages =  photosArray.length;
 
-    photosArray. forEach((photo) => {
+    photosArray. forEach((photo ) => {
         const item = document.createElement('a');
         console.log(item)
         setAttributes(item, {
