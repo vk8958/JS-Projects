@@ -32,7 +32,7 @@ function displayPhotos() {
     totalImages =  photosArray.length;
 
     photosArray. forEach((photo ) => {
-        const item = document.createElement('a');
+        const item =  document.createElement('a');
         console.log(item)
         setAttributes(item, {
             href: photo.link.html,
@@ -40,7 +40,7 @@ function displayPhotos() {
 
         })
 
-        const img = document.createElement("img");
+        const img  = document.createElement("img");
         setAttributes(img, {
             src: photo.urls.regular,
             alt: photo.alt_description
