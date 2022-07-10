@@ -42,7 +42,7 @@ function displayPhotos() {
 
         const img  = document.createElement("img");
         setAttributes(img, {
-            src:  photo.urls.regular,
+            src:  photo   .urls.regular,
             alt: photo.alt_description
         })
 
