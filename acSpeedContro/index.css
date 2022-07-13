@@ -1,0 +1,14 @@
+body{
+background-color: greenyellow;
+text-align: center;
+color:green;
+font-family: Arial, Helvetica, sans-serif;
+}
+#btn{
+    height: 30px;
+    background: transparent;
+    border-radius: 5px;
+    color: green;
+    font-weight: 900;
+    border-color: green;
+}
