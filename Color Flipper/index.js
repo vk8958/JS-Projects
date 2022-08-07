@@ -25,4 +25,4 @@ setInterval(function(){
         const color=arr[Math.floor(Math.random()*10)];
         background[0].style.background=color;
     
-},1000);
+},0);
