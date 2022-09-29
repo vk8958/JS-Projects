@@ -1,2 +1,6 @@
-const num= Math.ceil(Math.random(255).toString())
+// generatin a hex code of color
+
+const num= Math.ceil(Math.random()*10);
+
+
 console.log(num)
